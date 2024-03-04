@@ -18,3 +18,5 @@ test: $(PROJECT_NAME)
 	@cp $(PROJECT_NAME).* tests/
 	@cp Makefile tests/
 	@cd tests && bash test_func_cat.sh
+
+dvi:
