@@ -14,9 +14,9 @@
 #define MY_CAT_H
 
 #ifdef __linux__
-#define LETTERS_CASE "+benstvET"
-#else
 #define LETTERS_CASE "benstvET"
+#else
+#define LETTERS_CASE "+benstvET"
 #endif
 
 #include <getopt.h>
